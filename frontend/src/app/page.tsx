@@ -1,7 +1,11 @@
-import {Button} from '@chakra-ui/react'
+import {Button, Link} from '@chakra-ui/react'
 
 export default function Home() {
   return (
-      <Button colorScheme="teal">Click Me</Button>
+      <Button colorScheme="teal">
+        <Link href="/todo-list">
+            TodoListPage
+        </Link>
+      </Button>
   )
 }
