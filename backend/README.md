@@ -1,0 +1,1 @@
+# typescript-shared-domain-sample

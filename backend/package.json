@@ -1,0 +1,17 @@
+{
+  "name": "typescript-shared-domain-sample",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "fastify": "^4.25.1"
+  },
+  "devDependencies": {
+    "@types/node": "^20.10.5",
+    "jest": "^29.7.0",
+    "typescript": "^5.3.3"
+  }
+}
